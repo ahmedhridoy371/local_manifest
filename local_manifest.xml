@@ -10,5 +10,7 @@
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender13" remote="ahmedhridoy371" revision="evo" />  
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender13" remote="ahmedhridoy371" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="projects-nexus" revision="qti" />
+  
+  <remove-project name="ArrowOS/android_hardware_qcom_display" />
   <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="main" />
 </manifest>
