@@ -10,7 +10,7 @@
       <remote  name="clang"
           fetch="https://github.com/kdrag0n" />
           
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavenderbeta" remote="ahmedhridoy371" revision="evo13" />  
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavenderbeta" remote="ahmedhridoy371" revision="rice" />  
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavenderbeta" remote="ahmedhridoy371" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="projects-nexus" revision="qti" />
   <!-- Custom Clang -->
