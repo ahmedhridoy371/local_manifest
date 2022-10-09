@@ -7,8 +7,8 @@
       <remote name="ahmedhridoy371"
           fetch="https://github.com/ahmedhridoy371" />       
      
-      <remote  name="ahmedhridoy371"
-          fetch="https://gitlab.com/ahmedhridoy371" />
+      <remote  name="clang"
+          fetch="https://gitlab.com/ImSurajxD" />
           
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavenderbeta" remote="ahmedhridoy371" revision="rice13" />  
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavenderbeta" remote="ahmedhridoy371" revision="13" />  
@@ -17,6 +17,6 @@
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="arrow-13.0-caf-msm8998" />
 
-   <!-- (Clang) -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ahmedhridoy371" revision="master" />
+  <!-- (Clang) -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 </manifest>
