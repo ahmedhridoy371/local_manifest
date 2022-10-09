@@ -14,7 +14,7 @@
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavenderbeta" remote="ahmedhridoy371" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="projects-nexus" revision="qti" />
   
-  <remove-project name="ArrowOS/android_hardware_qcom_display" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="arrow-13.0-caf-msm8998" />
 
    <!-- (Clang) -->
