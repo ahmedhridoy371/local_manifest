@@ -7,7 +7,7 @@
       <remote name="ahmedhridoy371"
           fetch="https://github.com/ahmedhridoy371" />       
      
-      <remote  name="clang"
+      <remote  name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
           
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavenderbeta" remote="ahmedhridoy371" revision="rice13" />  
