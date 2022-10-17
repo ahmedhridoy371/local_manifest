@@ -15,5 +15,5 @@
   <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="ahmedhridoy371" revision="sapphire" />
   
   <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="arrow-13.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="nerdaf" revision="sdm660-4.19" />
 </manifest>
