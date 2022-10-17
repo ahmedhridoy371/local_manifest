@@ -14,6 +14,11 @@
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="ahmedhridoy371" revision="thirteen-4.19" />  
   <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="ahmedhridoy371" revision="sapphire" />
   
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="nerdaf" revision="sdm660-4.19" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="nerdaf" revision="sdm660-4.19" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="edwin" revision="sdm660-4.19" />
 </manifest>
