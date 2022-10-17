@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>      
 
-      <remote name="projects-nexus"
-          fetch="https://github.com/projects-nexus" />   
+      <remote name="nerdaf"
+          fetch="https://github.com/datnerdguy" />   
       
       <remote name="ahmedhridoy371"
           fetch="https://github.com/ahmedhridoy371" />       
      
-      <remote name="ImSurajxD"
-          fetch="https://gitlab.com/ImSurajxD" />
+      <remote name="edwin"
+          fetch="https://github.com/EdwinMoq" />
           
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="ahmedhridoy371" revision="rice13" />  
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="ahmedhridoy371" revision="thirteen-4.19" />  
