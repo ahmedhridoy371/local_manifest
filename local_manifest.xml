@@ -9,6 +9,9 @@
      
       <remote name="edwin"
           fetch="https://github.com/EdwinMoq" />
+
+      <remote name="ImSurajxD"
+          fetch="https://gitlab.com/ImSurajxD" />
           
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="ahmedhridoy371" revision="rice13" />  
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="ahmedhridoy371" revision="thirteen-4.19" />  
