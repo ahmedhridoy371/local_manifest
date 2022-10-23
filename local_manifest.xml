@@ -10,8 +10,8 @@
       <remote name="aro"
           fetch="https://github.com/ArrowOS-Devices" />
       
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ahmedhridoy371" revision="arrow" />  
-  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ahmedhridoy371" revision="12.1" />  
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ahmedhridoy371" revision="devicetest" />  
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ahmedhridoy371" revision="vendortest" />  
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="projects-nexus" revision="qti" />
   
    <!-- (Clang) -->
