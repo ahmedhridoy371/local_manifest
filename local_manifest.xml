@@ -13,7 +13,7 @@
       <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
               
-  <project path="device/xiaomi/lavender" name="device_test" remote="ahmedhridoy371" revision="ricedroid" />  
+  <project path="device/xiaomi/lavender" name="device_test" remote="ahmedhridoy371" revision="rice13" />  
   <project path="vendor/xiaomi/lavender" name="vendor_test" remote="ahmedhridoy371" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="qti" />
   
