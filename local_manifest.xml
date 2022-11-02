@@ -20,7 +20,7 @@
   <remove-project name="android_device_cherish_sepolicy" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   
-  <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="ahmedhridoy371" revision="trisumu" />
+  <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="ahmedhridoy371" revision="tiramisu" />
 
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="arrow-13.0-caf-msm8998" />
 
