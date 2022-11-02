@@ -17,7 +17,10 @@
   <project path="vendor/xiaomi/lavender" name="vendor_test" remote="ahmedhridoy371" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="qti" />
   
+  <remove-project name="android_device_cherish_sepolicy" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
+  
+  <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="ahmedhridoy371" revision="trisumu" />
 
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="arrow-13.0-caf-msm8998" />
 
