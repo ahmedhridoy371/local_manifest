@@ -14,7 +14,7 @@
           fetch="https://gitlab.com/ImSurajxD" />
               
   <project path="device/xiaomi/lavender" name="device_test_lavender" remote="ahmedhridoy371" revision="CherishOS-tiramisu" />  
-  <project path="vendor/xiaomi/lavender" name="vendor_test_lavender1" remote="ahmedhridoy371" revision="13" />  
+  <project path="vendor/xiaomi/lavender" name="vendor_test_lavender" remote="ahmedhridoy371" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="qti" />
   
   <remove-project name="android_device_cherish_sepolicy" />
