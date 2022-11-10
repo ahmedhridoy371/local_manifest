@@ -14,7 +14,7 @@
           fetch="https://gitlab.com/ImSurajxD" />
               
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavenderbeta" remote="ahmedhridoy371" revision="SuperiorOS-thirteen" />  
-  <project path="vendor/xiaomi/lavender" name="Vendor_wip" remote="ahmedhridoy371" revision="13" />  
+  <project path="vendor/xiaomi/lavender" name="vendor_test" remote="ahmedhridoy371" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="qti" />
   
   <remove-project name="android_hardware_qcom_wlan" />
