@@ -13,8 +13,8 @@
       <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
               
-  <project path="device/xiaomi/lavender" name="Device_wip" remote="ahmedhridoy371" revision="BlissRoms-typhoon" />  
-  <project path="vendor/xiaomi/lavender" name="Vendor_wip" remote="ahmedhridoy371" revision="13" />  
+  <project path="device/xiaomi/lavender" name="Device_wip" remote="ahmedhridoy371" revision="Corvus-AOSP-13" />
+  <project path="vendor/xiaomi/lavender" name="Vendor_wip" remote="ahmedhridoy371" revision="13" />
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="projects-nexus" revision="test" />
   
   <remove-project name="platform_hardware_qcom_wlan-caf" />
