@@ -17,12 +17,10 @@
   <project path="vendor/xiaomi/lavender" name="Vendor_wip" remote="ahmedhridoy371" revision="13" />
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="projects-nexus" revision="test" />
   
-  <remove-project name="platform_hardware_qcom_wlan-caf" />
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="android_hardware_qcom_media" />
 
-  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="ahmedhridoy371" revision="arrow-13.0-caf" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
