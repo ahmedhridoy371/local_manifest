@@ -10,12 +10,12 @@
       <remote name="ArrowOS"
           fetch="https://github.com/ArrowOS" />
 
-      <remote name="ImSurajxD"
-          fetch="https://gitlab.com/ImSurajxD" />
+      <remote name="clang"
+          fetch="https://gitlab.com/Amritorock" />
               
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavenderbeta" remote="ahmedhridoy371" revision="RiceDroid-thirteen" />  
+  <project path="device/xiaomi/lavender" name="Device_wip" remote="ahmedhridoy371" revision="RiceDroid-thirteen" />  
   <project path="vendor/xiaomi/lavender" name="Vendor_wip" remote="ahmedhridoy371" revision="13" />  
-  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="qti" />
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="projects-nexus" revision="test" />
   
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
@@ -26,5 +26,5 @@
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
  
   <!-- (Clang) -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
