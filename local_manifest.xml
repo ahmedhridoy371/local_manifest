@@ -19,9 +19,11 @@
   
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_wlan" />
-  
+  <remove-project name="RiceDroid/android_packages_apps_Launcher3" />
+ 
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="arrow-13.0-caf-msm8998" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="ahmedhridoy371" revision="arrow-13.0-caf" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="ahmedhridoy371" revision="13.0" />
 
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
