@@ -13,15 +13,12 @@
       <remote name="clang"
           fetch="https://gitlab.com/Amritorock" />
               
-  <project path="device/xiaomi/lavender" name="Device_wip" remote="ahmedhridoy371" revision="RiceDroid-thirteen" />  
+  <project path="device/xiaomi/lavender" name="Device_wip" remote="ahmedhridoy371" revision="calyxOS-13" />  
   <project path="vendor/xiaomi/lavender" name="Vendor_wip" remote="ahmedhridoy371" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="qti" />
   
   <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="LineageOS/android_hardware_qcom_wlan" />
-  <remove-project name="RiceDroid/android_frameworks_base" />
-  
-  <project path="frameworks/base" name="temporary-frameworks_base" remote="ahmedhridoy371" revision="main" />
+
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="arrow-13.0-caf-msm8998" />
 
   <!-- (Clang) -->
