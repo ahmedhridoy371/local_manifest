@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>      
 
-      <remote name="projects-nexus"
-          fetch="https://github.com/projects-nexus" />   
+      <remote name="CarbonROM"
+          fetch="https://github.com/CarbonROM" />   
       
       <remote name="ahmedhridoy371"
           fetch="https://github.com/ahmedhridoy371" />       
@@ -20,10 +20,12 @@
   <remove-project name="hardware_qcom_wlan" />
   <remove-project name="hardware_qcom_display" />
   <remove-project name="device_xtended_sepolicy" />
+  <remove-project name="system_libhidl" />
 
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="ahmedhridoy371" revision="arrow-13.0-caf" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
   <project path="device/xtended/sepolicy" name="device_xtended_sepolicy" remote="ahmedhridoy371" revision="xt" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="CarbonROM" revision="cr-11.0" />
 
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang13" remote="ahmedgaming371" revision="master" clone-depth="1" />
