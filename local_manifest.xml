@@ -20,7 +20,7 @@
   <remove-project name="hardware_qcom_wlan" />
   <remove-project name="hardware_qcom_display" />
   <remove-project name="device_xtended_sepolicy" />
-  <remove-project name="system_libhidl" />
+  <remove-project name="platform/system/libhidl" />
 
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="ahmedhridoy371" revision="arrow-13.0-caf" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
