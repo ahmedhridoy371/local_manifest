@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>      
 
-      <remote name="projects-nexus"
-          fetch="https://github.com/projects-nexus" />   
+      <remote name="CarbonROM"
+          fetch="https://github.com/CarbonROM" />   
       
       <remote name="ahmedhridoy371"
           fetch="https://github.com/ahmedhridoy371" />       
@@ -15,7 +15,7 @@
               
   <project path="device/xiaomi/lavender" name="Device_wip" remote="ahmedhridoy371" revision="BlissRoms-typhoon" />  
   <project path="vendor/xiaomi/lavender" name="Vendor_wip" remote="ahmedhridoy371" revision="13" />  
-  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="projects-nexus" revision="test" />
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="qti" />
   
   <remove-project name="platform_hardware_qcom_wlan-caf" />
   <remove-project name="android_hardware_qcom_display" />
