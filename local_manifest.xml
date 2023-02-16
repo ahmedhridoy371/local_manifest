@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>      
 
-      <remote name="projects-nexus"
-          fetch="https://github.com/projects-nexus" />   
+      <remote name="Dooms-v"
+          fetch="https://github.com/Dooms-v" />   
       
       <remote name="ahmedhridoy371"
           fetch="https://github.com/ahmedhridoy371" />       
@@ -10,17 +10,21 @@
       <remote name="ArrowOS"
           fetch="https://github.com/ArrowOS" />
 
-      <remote name="ahmedgaming371"
-          fetch="https://gitlab.com/ahmedgaming371" />
+      <remote name="clang"
+          fetch="https://gitlab.com/Amritorock" />
               
   <project path="device/xiaomi/lavender" name="Device_wip" remote="ahmedhridoy371" revision="temp" />  
   <project path="vendor/xiaomi/lavender" name="Vendor_wip" remote="ahmedhridoy371" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="qti" />
- 
+  
   <remove-project name="android_hardware_qcom_display" />
-
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
-
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_media" />
+ 
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="arrow-13.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
+        
   <!-- (Clang) -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang13" remote="ahmedgaming371" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
