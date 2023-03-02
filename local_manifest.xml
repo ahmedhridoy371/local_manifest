@@ -15,7 +15,7 @@
               
   <project path="device/xiaomi/lavender" name="Device_wip" remote="ahmedhridoy371" revision="temp" />  
   <project path="vendor/xiaomi/lavender" name="Vendor_wip" remote="ahmedhridoy371" revision="13" />  
-  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="qti" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.4" remote="ahmedhridoy371" revision="a13-qti-camfix" />
   
   <remove-project name="LineageOS/android_hardware_qcom_display" />
 
