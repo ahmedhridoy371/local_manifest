@@ -21,6 +21,9 @@
 
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
 
+  <!-- Dolby -->
+  <project path="vendor/dolby" name="vendor_dolby" remote="ahmedhridoy371" revision="main" clone-depth="1" />
+
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang13" remote="ahmedgaming371" revision="master" clone-depth="1" />
 </manifest>
