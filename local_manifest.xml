@@ -12,6 +12,12 @@
 
       <remote name="ahmedgaming371"
           fetch="https://gitlab.com/ahmedgaming371" />
+          
+      <remote name="romgharti"
+          fetch="https://github.com/romgharti" />
+         
+     <remote name="mojito"
+          fetch="https://github.com" />
               
   <project path="device/xiaomi/lavender" name="Device_wip" remote="ahmedhridoy371" revision="temp" />  
   <project path="vendor/xiaomi/lavender" name="Vendor_wip" remote="ahmedhridoy371" revision="13" />  
@@ -20,6 +26,18 @@
   <remove-project name="android_hardware_qcom_display" />
 
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
+
+  <remove-project name="frameworks_base" />
+  <project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
+  <remove-project name="device_bootleg_sepolicy" />
+  <project path="device/bootleg/sepolicy" name="romgharti/device_bootleg_sepolicy" remote="mojito" revision="tirimbino" />
+  <remove-project name="frameworks_av" />
+  <project path="frameworks/av" name="romgharti/frameworks_av" remote="mojito" revision="tirimbino" />
+  <remove-project name="vendor_bootleggers" />
+  <project path="vendor/bootleggers" name="romgharti/vendor_bootleggers" remote="mojito" revision="tirimbino" />
+
+  <remove-project name="packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
 
   <!-- Dolby -->
   <project path="vendor/dolby" name="vendor_dolby" remote="ahmedhridoy371" revision="main" clone-depth="1" />
