@@ -17,7 +17,7 @@
   <project path="vendor/xiaomi/lavender" name="Vendor_wip" remote="ahmedhridoy371" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.4" remote="ahmedhridoy371" revision="a13-qti-camfix" />
  
-  <remove-project name="name="android_hardware_qcom-caf_msm8998_display" />
+  <remove-project name="android_hardware_qcom-caf_msm8998_display" />
 
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
 
