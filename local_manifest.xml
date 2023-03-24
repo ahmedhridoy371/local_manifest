@@ -19,7 +19,7 @@
  
   <remove-project name="android_hardware_qcom_display" />
 
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom-caf_msm8998_display" remote="ArrowOS" revision="arrow-13.0-caf-msm8998" />
 
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang13" remote="ahmedgaming371" revision="master" clone-depth="1" />
