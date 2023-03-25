@@ -15,7 +15,7 @@
               
   <project path="device/xiaomi/lavender" name="dt11" remote="ahmedhridoy371" revision="11" />  
   <project path="vendor/xiaomi/lavender" name="vt11" remote="ahmedhridoy371" revision="11" />  
-  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="eas-9.6" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.4" remote="ahmedhridoy371" revision="qti-oldcam" />
  
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang13" remote="ahmedgaming371" revision="master" clone-depth="1" />
