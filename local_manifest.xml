@@ -13,8 +13,8 @@
       <remote name="ahmedgaming371"
           fetch="https://gitlab.com/ahmedgaming371" />
               
-  <project path="device/xiaomi/lavender" name="device_a10" remote="ahmedhridoy371" revision="10" />  
-  <project path="vendor/xiaomi/lavender" name="vendor_a10" remote="ahmedhridoy371" revision="10" />  
+  <project path="device/xiaomi/lavender" name="dt10" remote="ahmedhridoy371" revision="10" />  
+  <project path="vendor/xiaomi/lavender" name="vt10" remote="ahmedhridoy371" revision="10" />  
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="eas-9.6" />
 
   <!-- (Clang) -->
