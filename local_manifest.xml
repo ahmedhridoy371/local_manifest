@@ -21,9 +21,11 @@
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.4" remote="ahmedhridoy371" revision="a13-qti-camfix" />
   
   <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_vendor_gapps" />
 
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ahmedhridoy371" revision="arrow-13.0-caf-msm8998" />
-  
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="ahmedhridoy371" revision="r" />
+
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
