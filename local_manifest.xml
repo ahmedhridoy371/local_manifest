@@ -15,7 +15,7 @@
               
   <project path="device/xiaomi/lavender" name="testdt" remote="ahmedhridoy371" revision="13.0" />  
   <project path="vendor/xiaomi/lavender" name="testvt" remote="ahmedhridoy371" revision="13.0" />  
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.4" remote="ahmedhridoy371" revision="a13-qti-camfix" />
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender" remote="ahmedhridoy371" revision="13.0" />
   
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="android_hardware_qcom_audio" />
