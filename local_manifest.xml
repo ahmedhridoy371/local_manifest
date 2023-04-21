@@ -7,8 +7,8 @@
       <remote name="ahmedhridoy371"
           fetch="https://github.com/ahmedhridoy371" />       
      
-      <remote name="18796299507"
-          fetch="https://github.com/18796299507" />
+      <remote name="AOSPA"
+          fetch="https://github.com/AOSPA" />
 
       <remote name="ahmedgaming371"
           fetch="https://gitlab.com/ahmedgaming371" />
@@ -18,8 +18,11 @@
   <project path="kernel/xiaomi/lavender" name="MengT_kernel_lavender" remote="ahmedhridoy371" revision="msm-4.4" />
 
   <remove-project name="android_vendor_themes" />
+  <remove-project name="android_bionic" />
   
   <project path="vendor/themes" name="android_vendor_themes" remote="ahmedhridoy371" revision="10" />
+  
+  <project path="bionic" name="android_bionic" remote="AOSPA" revision="quartz" />
 
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r353983" name="clang-r353983" remote="J0SH1X" revision="master" clone-depth="1" />
