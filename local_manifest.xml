@@ -17,6 +17,10 @@
   <project path="vendor/xiaomi/lavender" name="vt10" remote="ahmedhridoy371" revision="10" />  
   <project path="kernel/xiaomi/lavender" name="MengT_kernel_lavender" remote="ahmedhridoy371" revision="msm-4.4" />
 
+  <remove-project name="android_vendor_themes" />
+  
+  <project path="vendor/themes" name="android_vendor_themes" remote="ahmedhridoy371" revision="10" />
+
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r353983" name="clang-r353983" remote="J0SH1X" revision="master" clone-depth="1" />
 </manifest>
