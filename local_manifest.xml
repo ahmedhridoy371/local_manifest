@@ -11,7 +11,7 @@
           fetch="https://github.com/AOSPA" />
 
       <remote name="18796299507"
-          fetch="https://gitlab.com/18796299507" />
+          fetch="https://github.com/18796299507" />
               
   <project path="device/xiaomi/lavender" name="dt10" remote="ahmedhridoy371" revision="temp" />  
   <project path="vendor/xiaomi/lavender" name="vt10" remote="ahmedhridoy371" revision="10" />  
