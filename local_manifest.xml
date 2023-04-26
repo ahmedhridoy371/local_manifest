@@ -18,5 +18,5 @@
   <project path="kernel/xiaomi/lavender" name="MengT_kernel_lavender" remote="ahmedhridoy371" revision="msm-4.4" />
 
   <!-- (Clang) -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r353983" name="clang-r353983" remote="J0SH1X" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="platform_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ahmedhridoy371" revision="t" />
 </manifest>
