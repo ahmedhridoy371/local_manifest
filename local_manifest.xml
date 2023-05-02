@@ -18,8 +18,12 @@
   <project path="kernel/xiaomi/sdm660" name="MengT_kernel_lavender" remote="ahmedhridoy371" revision="msm-4.4" />
            
   <remove-project name="device_rr_sepolicy" />
+  <remove-project name="device_qcom_sepolicy-legacy-um" />
+  <remove-project name="system_sepolicy" />
   <project path="device/rr/sepolicy" name="device_rr_sepolicy" remote="ahmedhridoy371" revision="Q" />
-
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ahmedhridoy371" revision="ten" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="ahmedhridoy" revision="Q" />
+  
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r353983" name="clang-r353983" remote="J0SH1X" revision="master" clone-depth="1" />
 </manifest>
