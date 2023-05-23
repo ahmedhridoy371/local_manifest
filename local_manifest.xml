@@ -7,8 +7,9 @@
 <remote name="Arrow" fetch="https://github.com/ArrowOS" />
 <remote name="arrow-devices" fetch="https://github.com/ArrowOS-Devices" />
 <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-<remote name="proton" fetch="https://github.com/ProtonAOSP-lavender" />
+<remote name="ancient-os" fetch="https://gitlab.com/ancient-os" />
 <remote name="J0SH1X" fetch="https://github.com/J0SH1X" /> 
+
 
      <!--Trees-->
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="ahmedhridoy" revision="10" />         
@@ -20,9 +21,12 @@
   <remove-project name="device_rr_sepolicy" />
   <remove-project name="device_qcom_sepolicy-legacy-um" />
   <remove-project name="system_sepolicy" />
+  <remove-project name="MindTheGapps/vendor_gapps" />
+
   <project path="device/rr/sepolicy" name="device_rr_sepolicy" remote="ahmedhridoy" revision="Q" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ahmedhridoy" revision="10" />
   <project path="system/sepolicy" name="system_sepolicy" remote="ahmedhridoy" revision="Q" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="ancient-os" revision="ten" />
   
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r353983" name="clang-r353983" remote="J0SH1X" revision="master" clone-depth="1" />
