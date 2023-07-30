@@ -7,14 +7,14 @@
       <remote name="ahmedhridoy371"
           fetch="https://github.com/ahmedhridoy371" />       
      
-      <remote name="ArrowOS"
-          fetch="https://github.com/ArrowOS" />
+      <remote name="ahmedhridoy"
+          fetch="https://github.com/ahmedhridoy" />
 
       <remote name="ahmedgaming371"
           fetch="https://gitlab.com/ahmedgaming371" />
               
-  <project path="device/xiaomi/lavender" name="dt11" remote="ahmedhridoy371" revision="11" />  
-  <project path="vendor/xiaomi/lavender" name="vt11" remote="ahmedhridoy371" revision="11" />  
+  <project path="device/xiaomi/lavender" name="dt11" remote="ahmedhridoy" revision="los" />  
+  <project path="vendor/xiaomi/lavender" name="vt11" remote="ahmedhridoy" revision="11" />  
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.4" remote="ahmedhridoy371" revision="qti-oldcam" />
  
   <!-- (Clang) -->
