@@ -18,13 +18,13 @@
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="ahmedhridoy" revision="10" />           
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_lavender-1" remote="ahmedhridoy" revision="10" />
            
-  <remove-project name="device_rr_sepolicy" />
-  <remove-project name="device_qcom_sepolicy-legacy-um" />
+  <remove-project name="device_lineage_sepolicy" />
+  <remove-project name="LineageOS/android_device_qcom_sepolicy" />
   <remove-project name="system_sepolicy" />
 
 
-  <project path="device/rr/sepolicy" name="device_rr_sepolicy" remote="ahmedhridoy" revision="Q" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ahmedhridoy" revision="10" />
+  <project path="device/lineage/sepolicy" name="device_rr_sepolicy" remote="ahmedhridoy" revision="Q" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ahmedhridoy" revision="los" />
   <project path="system/sepolicy" name="system_sepolicy" remote="ahmedhridoy" revision="Q" />
   
   
