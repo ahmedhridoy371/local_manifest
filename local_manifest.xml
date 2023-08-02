@@ -20,7 +20,7 @@
            
   <remove-project name="device_lineage_sepolicy" />
   <remove-project name="LineageOS/android_device_qcom_sepolicy" />
-  <remove-project name="system_sepolicy" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
 
 
   <project path="device/lineage/sepolicy" name="device_rr_sepolicy" remote="ahmedhridoy" revision="Q" />
