@@ -13,10 +13,10 @@
 
      <!--Trees-->
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="ahmedhridoy" revision="10" />         
-  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="ahmedhridoy" revision="10" />        
+  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="ahmedhridoy" revision="test" />        
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ahmedhridoy" revision="10" />      
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="ahmedhridoy" revision="10" />           
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_lavender-1" remote="ahmedhridoy" revision="mk" />
+  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sd660" remote="ahmedhridoy" revision="10" />
            
   <remove-project name="device_rr_sepolicy" />
   <remove-project name="device_qcom_sepolicy-legacy-um" />
