@@ -59,7 +59,6 @@
   <remove-project name="packages_providers_MediaProvider" />
   <remove-project name="android_frameworks_opt_net_wifi" />
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
-  <remove-project name="LineageOS/android_vendor_codeaurora_telephony" />
 
   <!-- Trees -->
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="ahmedhridoy" revision="10" />         
@@ -120,7 +119,6 @@
 
   <!-- Vendor -->
   <project path="vendor/rr" name="vendor_resurrection" remote="rr-r"/>
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="limestonetwo" clone-depth="1" revision="lineage-17.1" />
   
   <!-- Additions -->
   <!-- MindTheGapps -->
