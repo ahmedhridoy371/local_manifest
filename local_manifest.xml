@@ -59,7 +59,8 @@
   <remove-project name="packages_providers_MediaProvider" />
   <remove-project name="android_frameworks_opt_net_wifi" />
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
-
+  <remove-project name="LineageOS/android_external_chromium-webview" />
+  
   <!-- Trees -->
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="ahmedhridoy" revision="10" />         
   <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="ahmedhridoy" revision="10" />        
@@ -116,6 +117,17 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="rr-r" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="rr-r" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="rr-r" />
+
+  <!-- test    -->
+    <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" >
+    <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
+    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" groups="pdk" clone-depth="1" revision="main" />
+
+  <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" clone-depth="1" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" clone-depth="1" revision="main" />
 
   <!-- Vendor -->
   <project path="vendor/rr" name="vendor_resurrection" remote="rr-r"/>
