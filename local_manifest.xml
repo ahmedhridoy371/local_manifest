@@ -24,7 +24,7 @@
               
   <project path="device/xiaomi/lavender" name="android_device_lavender-dynamic" remote="ahmedhridoy" revision="lineage-20" />  
   <project path="vendor/xiaomi/lavender" name="vt13" remote="ahmedhridoy" revision="13" />  
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.19" remote="ahmedhridoy" revision="13-Retro-EroFs" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.19" remote="ahmedhridoy" revision="13-Retro" />
   
    <remove-project name="ArrowOS/android_hardware_qcom_display" />
    <remove-project name="ArrowOS/android_hardware_qcom_media" />
