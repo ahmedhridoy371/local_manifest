@@ -26,9 +26,9 @@
   <project path="vendor/xiaomi/lavender" name="vt13" remote="ahmedhridoy" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.19" remote="ahmedhridoy" revision="13-Retro" />
   
-   <remove-project name="ArrowOS/android_hardware_qcom_display" />
-   <remove-project name="ArrowOS/android_hardware_qcom_media" />
-   <remove-project name="ArrowOS/android_hardware_qcom_audio" />
+   <remove-project name="LineageOS/android_hardware_qcom_display" />
+   <remove-project name="LineageOS/android_hardware_qcom_media" />
+   <remove-project name="LineageOS/android_hardware_qcom_audio" />
    <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
 
    <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="wHoEMi" revision="13-caf-sdm660" />
