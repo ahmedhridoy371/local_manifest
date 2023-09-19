@@ -13,9 +13,6 @@
       <remote name="ahmedhridoy"
           fetch="https://github.com/ahmedhridoy" />
 
-      <remote name="wHo-EM-i"
-          fetch="https://github.com/wHo-EM-i" />
-
       <remote name="clang"
           fetch="https://gitlab.com/Amritorock" />
           
@@ -31,9 +28,9 @@
    <remove-project name="LineageOS/android_hardware_qcom_audio" />
    <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
 
-   <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="wHoEMi" revision="13-caf-sdm660" />
-   <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="wHoEMi" revision="13-caf-sdm660" />
-   <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="wHoEMi" revision="13-caf-sdm660" />
+   <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="ahmedhridoy" revision="13-caf-sdm660" />
+   <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="ahmedhridoy" revision="13-caf-sdm660" />
+   <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="ahmedhridoy" revision="13-caf-sdm660" />
    <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" revision="main" remote="def" clone-depth="1" />
   
   <!-- (Clang) -->
