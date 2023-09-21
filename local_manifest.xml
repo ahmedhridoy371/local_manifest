@@ -25,13 +25,15 @@
    <remove-project name="LineageOS/android_hardware_qcom_audio" />
    <remove-project name="LineageOS/android_vendor_lineage" />
    <remove-project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+   <remove-project name="LineageOS/android_device_lineage_sepolicy" />
 
    <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" remote="ahmedhridoy" revision="13-caf-sdm660" />
    <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" remote="ahmedhridoy" revision="13-caf-sdm660" />
    <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" remote="ahmedhridoy" revision="13-caf-sdm660" />
    <project path="vendor/lineage" name="android_vendor_lineage" remote="ahmedhridoy371" revision="lineage-20.0" />
    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="ahmedhridoy371" revision="arrow-13.1" />
-      
-  <!-- (Clang) -->
+   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="ahmedhridoy371" revision="lineage-20.0" />
+
+   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang13" remote="ahmedgaming371" revision="master" clone-depth="1" />
 </manifest>
