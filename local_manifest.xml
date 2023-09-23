@@ -16,7 +16,7 @@
       <remote name="ahmedgaming371"
           fetch="https://gitlab.com/ahmedgaming371" />
               
-  <project path="device/xiaomi/lavender" name="android_device_lavender-dynamic" remote="ahmedhridoy" revision="arrow" />  
+  <project path="device/xiaomi/lavender" name="dt133" remote="ahmedhridoy" revision="arrow" />  
   <project path="vendor/xiaomi/lavender" name="vt13" remote="ahmedhridoy" revision="13" />  
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.19" remote="ahmedhridoy" revision="13-Retro" />
   
