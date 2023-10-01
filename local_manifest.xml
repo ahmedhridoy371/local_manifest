@@ -15,10 +15,12 @@
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
 
   <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom_display" remote="ahmedhridoy" revision="13" />
    <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom_audio" remote="ahmedhridoy" revision="13" />  
    <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom_media" remote="ahmedhridoy" revision="13" />
+   <project path="vendor/lineage" name="android_vendor_lineage" remote="ahmedhridoy" revision="13" />
 
   <!-- (Clang) -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang13" remote="ahmedgaming371" revision="master" clone-depth="1" />
