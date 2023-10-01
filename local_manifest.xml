@@ -4,6 +4,8 @@
 <remote name="ahmedhridoy" fetch="https://github.com/ahmedhridoy" />
 <remote name="ahmedhridoy371" fetch="https://github.com/ahmedhridoy371" />
 <remote name="ahmedgaming371" fetch="https://gitlab.com/ahmedgaming371" />
+<remote name="git" fetch="https://github.com/" />
+<remote name="LineageOS" fetch="https://github.com/LineageOS" />
 
   <!--Trees-->
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ahmedhridoy" revision="test" />         
@@ -17,9 +19,12 @@
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="android_hardware_qcom_media" />
-  
+  <remove-project name="android_external_chromium-webview_prebuilt_arm64" />
+   
   <project path="system/libhidl" name="android_system_libhidl" remote="ahmedhridoy" revision="cr-11.0" />
-  <project path="vendor/bliss" name="platform_vendor_bliss" remote="ahmedhridoy" revision="typhoon" />
+  <project path="vendor/bliss" name="platform_vendor_bliss" remote="ahmedhridoy" revision="typhoon" />  
+  <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" clone-depth="1" revision="main" />
+  
   <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom_display" remote="ahmedhridoy" revision="13" />
    <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom_audio" remote="ahmedhridoy" revision="13" />  
    <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom_media" remote="ahmedhridoy" revision="13" />
