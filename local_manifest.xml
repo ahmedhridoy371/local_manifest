@@ -12,9 +12,9 @@
   <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="ahmedhridoy" revision="13" />           
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="ahmedhridoy" revision="13" />
 
-  <remove-project name="LineageOS/android_hardware_qcom_display" />
-  <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <remove-project name="ArrowOS/android_hardware_qcom_audio" />
+  <remove-project name="ArrowOS/android_hardware_qcom_audio" />
+  <remove-project name="ArrowOS/android_hardware_qcom_audio" />
   <remove-project name="android_vendor_cherish" />
 
   <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom_display" remote="ahmedhridoy" revision="13" />
