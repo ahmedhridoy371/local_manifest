@@ -7,7 +7,7 @@
 
   <!--Trees-->
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ahmedhridoy" revision="rise" />         
-  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="ahmedhridoy" revision="test" />        
+  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="ahmedhridoy" revision="13" />        
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ahmedhridoy" revision="13" />      
   <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="ahmedhridoy" revision="13" />           
   <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="ahmedhridoy" revision="13" />
