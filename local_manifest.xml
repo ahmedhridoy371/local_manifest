@@ -32,15 +32,18 @@
         </project>
 
         <remove-project name="android_device_qcom_sepolicy-legacy" />
-        <remove-project name="android_device_qcom_sepolicy-legacy-um" />
+        <remove-project name="device_rr_sepolicy" />
+        <remove-project name="device_qcom_sepolicy-legacy-um" />
+        <remove-project name="system_sepolicy" />
         <remove-project name="android_frameworks_base" />
         <remove-project name="android_system_core" />
         <remove-project name="android_vendor_resurrection" />
         <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="strongreasons" revision="Q" />
-        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="strongreasons" revision="Q" />
+        <project path="device/rr/sepolicy" name="device_rr_sepolicy" remote="ahmedhridoy" revision="Q" />
+        <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ahmedhridoy" revision="10" />
+        <project path="system/sepolicy" name="system_sepolicy" remote="ahmedhridoy" revision="Q" />
         <project path="frameworks/base" name="rr_frameworks_base" remote="strongreasons" revision="Q" />
         <project path="system/core" name="rr_system_core" remote="strongreasons" revision="Q" />
         <project path="vendor/rr" name="android_vendor_resurrection" remote="strongreasons" revision="Q" />
 
 </manifest>
-  
