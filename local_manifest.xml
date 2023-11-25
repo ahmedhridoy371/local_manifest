@@ -33,7 +33,7 @@
 
         <remove-project name="android_device_qcom_sepolicy-legacy" />
         <remove-project name="device_rr_sepolicy" />
-        <remove-project name="device_qcom_sepolicy-legacy-um" />
+        <remove-project name="android_device_qcom_sepolicy-legacy-um" />
         <remove-project name="system_sepolicy" />
         <remove-project name="android_frameworks_base" />
         <remove-project name="android_system_core" />
