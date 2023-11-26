@@ -19,6 +19,7 @@
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ahmedhridoy" revision="10" />      
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="ahmedhridoy" revision="10" />           
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sd660" remote="ahmedhridoy" revision="10" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r353983" name="clang-r353983" remote="J0SH1X" revision="master" clone-depth="1" />
 
         <remove-project name="android_build" />
         <project path="build/make" name="rr_build" remote="strongreasons" revision="Q" groups="pdk" >
